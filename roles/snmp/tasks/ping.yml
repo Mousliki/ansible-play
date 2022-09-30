@@ -1,0 +1,6 @@
+--- 
+ 
+- name: Check hosts reachability
+  shell: ping -c 1 {{ ansible_host }}
+  delegate_to: localhost  
+  tags: ping

@@ -1,0 +1,9 @@
+---
+- hosts: test
+  name: snmp test
+  become: true   
+  gather_facts: true
+  vars_files:    
+    - ../files/pass_credentials.vault
+  roles:  
+      - { role: ../../snmp} 

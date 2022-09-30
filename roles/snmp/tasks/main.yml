@@ -1,0 +1,18 @@
+--- 
+- name: Include a host check
+  include: ping.yml
+
+- name: change to snmpd conf file
+  shell: >   
+    echo "rocommunity intelcia01 10.66.10.22\nrocommunity intelcia01 10.66.10.39" >> /etc/snmp/snmpd.conf
+  register: snmpd_conf
+  tags: snmpd
+
+- name: restart snmpd
+  service:
+    name: snmpd
+    state: restarted
+  
+- name: status snmpd
+  shell: systemctl status snmpd 
+

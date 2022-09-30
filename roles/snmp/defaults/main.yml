@@ -1,0 +1,6 @@
+---
+ansible_ssh_common_args: '-o StrictHostKeyChecking=no' 
+ansible_user: ansadm
+ansible_password: "{{vault_ansible_password}}"   
+ansible_sudo_pass: "{{vault_ansible_password}}" 
+
