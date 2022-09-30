@@ -1,0 +1,280 @@
+---
+DB:
+  hosts:
+    SRVMA-MONGODB:
+      ansible_host: 172.19.45.185
+    SRVMA-DADB:
+      ansible_host: 172.19.47.46
+    SRVGS-TOBD:
+      ansible_host: 10.112.0.171
+    TH2-SRV-TOBD:
+      ansible_host: 10.75.6.103
+    SRVGS-MYBDR1:
+      ansible_host: 10.112.0.248
+    SRVGS-BDRMO:
+      ansible_host: 10.112.217.91
+    SRVGS-BDDQM4:
+      ansible_host: 10.112.0.88
+    SRVGS-BDDQM3:
+      ansible_host: 10.112.0.78
+    SRVMA-MYSQL:
+      ansible_host: 172.19.45.241
+    SRVGS-MYBDR3:
+      ansible_host: 10.112.0.249
+    SRVMA-EXTMYSQL:
+      ansible_host: 172.19.44.178
+    SRVDEVTH2-MYBDR1:
+      ansible_host: 10.75.6.130
+    SRVDEVTH2-MONG1:
+      ansible_host: 10.75.6.131
+    SRVMA-MYBDR4:
+      ansible_host: 172.19.45.4
+    SRVGS-MYBDR5:
+      ansible_host: 10.112.212.69
+    srvma-mysql2-pro:
+      ansible_host: 172.19.45.242
+    SRVMA-MYSQL2:
+      ansible_host: 172.19.46.95
+    SRVGS-NOSQL:
+      ansible_host: 10.112.0.238
+    SRVGS-BDDQM:
+      ansible_host: 10.112.0.72
+    SRVGS-BDDQM-REPLICA:
+      ansible_host: 10.112.0.186
+    SRVGS-BDDQM5:
+      ansible_host: 10.112.0.89
+    SRVGS-BDDQM2:
+      ansible_host: 10.112.0.77
+    SRVDEVTH2-MONG2:
+      ansible_host: 10.75.6.43
+    SRVDEVTH2-MYSQL:
+      ansible_host: 10.75.6.42
+    SRVGS-ORKWEB:
+      ansible_host: 10.112.0.13
+    COLLECT AVAYA ECH:
+      ansible_host: 172.19.46.240
+    SRVGS-ELASTICSEARCH:
+      ansible_host: 10.112.0.148
+    SRVGS-LIFERAY_MYSQL:
+      ansible_host: 10.112.0.149
+
+
+
+
+DEV:
+  hosts:
+    SRVMA-ARTFAC:
+      ansible_host: 172.19.46.238
+    SRVMA-METRICS: 
+      ansible_host: 172.19.46.77
+    SRVGS-REVPROXY1:
+      ansible_host: 10.112.0.241
+    # SRVDMZ-RPROXY:
+    #   ansible_host: 192.168.211.21
+    SRVGS-REVPROXY2:
+      ansible_host: 10.112.0.237
+   # ouverture flux reseaux
+    SRVGS-NGIX01:
+      ansible_host: 10.112.0.187
+    #
+    SRVGS-NGIX02:
+      ansible_host: 10.112.0.188
+    SRV-EJD-PROXYCAST:
+      ansible_host: 10.110.104.44
+    SRV-CCF-PROXYCAST:
+      ansible_host: 10.51.147.22
+    SRV-DKR-PROXYCAST:
+      ansible_host: 10.221.0.15
+    SRV-MAU-PROXYCAST:
+      ansible_host: 10.230.0.12
+
+
+
+KUBE-PREPROD:
+  hosts:
+    SRVDEVTH2-MASTER2:
+      ansible_host: 10.75.6.44
+    SRVDEVTH2-FRONT:
+      ansible_host: 10.75.6.49
+    SRVDEVTH2-ESB2:
+      ansible_host: 10.75.6.50
+    SRVDEVTH2-APPNODE1:
+      ansible_host: 10.75.6.47
+    SRVDEVTH2-APPNODE2:
+      ansible_host: 10.75.6.48
+    SRVDEVTH2-APPMS1:
+      ansible_host: 10.75.6.45
+    SRVDEVTH2-APPMS2:
+      ansible_host: 10.75.6.46
+
+
+
+
+
+Applications:
+  hosts:
+    SRVMA-ESB:
+      ansible_host: 172.19.46.109
+    SRVMA-FRONT: 
+      ansible_host: 172.19.45.173
+    SRVMA-LIERAY:
+      ansible_host: 172.19.46.216
+    SRVMA-LIFERAY-MYSQL:
+      ansible_host: 172.19.45.62
+    LIFERAY:
+      ansible_host: 172.19.46.252
+    SRVMA-LIFERAYQUALITE:
+      ansible_host: 172.19.45.226
+    SRVGS-LIFERAY:
+      ansible_host: 10.112.0.147
+    NEWDWHSCRIPT:
+      ansible_host: 172.19.45.32
+    SRVMA-GLPI:
+      ansible_host: 172.19.44.235
+    SRVMA-CHATBOT-COMM:
+      ansible_host: 172.19.47.167
+    OSIRISPRODAPPSRV:
+      ansible_host: 172.19.46.161
+    SRVMA-MYTODOAPP:
+      ansible_host: 172.19.45.47
+    SRVGS-BPROJ1:
+      ansible_host: 10.112.0.231
+    SRVDEV-LIERAY2:
+      ansible_host: 172.19.46.219
+    SRVMA-REGDEV1:
+      ansible_host: 172.19.44.141
+    SRVGS-LISTENERQM:
+      ansible_host: 10.112.0.71 
+    SRVGS-LISTENERQM4:
+      ansible_host: 10.112.0.69
+    SRVGS-LISTENERQM5:
+      ansible_host: 10.112.0.87
+    SRVMA-BPROJ3:
+      ansible_host: 172.19.44.142
+    SRVGS-CWEB1:
+      ansible_host: 10.112.0.195
+    SRGVS-REGDEV2:
+      ansible_host: 10.112.0.28
+    SRVMA-PCS:
+      ansible_host: 172.19.44.143
+    SRVMA-EXTAPPACHE:
+      ansible_host: 172.19.44.177
+    SRGVS-PCS2:
+      ansible_host: 10.112.0.250
+    SRVMA-REDMINE:
+      ansible_host: 172.19.47.14
+    SRVMA-DTI-TEST:
+      ansible_host: 172.19.44.109
+    SRVPROD-DIGITALFACT:
+      ansible_host: 172.19.47.171
+    SRVMA-QUIZRH:
+      ansible_host: 172.19.44.233
+    SRVMA-GITLABEE:
+      ansible_host: 172.19.45.61
+    SRVMA-APP1:
+      ansible_host: 172.19.46.111
+    SRVGS-CWEB2:
+      ansible_host: 10.112.0.196
+
+
+
+
+Kube-Ecav:     
+  hosts: 
+    SRVGS-ECAVMASTER1: 
+      ansible_host: 10.112.217.19
+    SRVTH2-ECAVMASTER2: 
+      ansible_host: 10.75.217.22
+    SRVGS-ECAVFRONT1:    
+      ansible_host: 10.112.217.21  
+    SRVGS-ECAVAPP1:   
+      ansible_host: 10.112.217.22 
+    SRVTH2-ECAVAPP2: 
+      ansible_host: 10.75.217.21 
+
+
+Kube-France:  
+  hosts:
+    SRVMA-RMASTER1: 
+      ansible_host: 172.19.46.75   
+    SRVGS-NODEMS2: 
+      ansible_host: 10.112.0.246 
+    SRVGS-NODEMS1: 
+      ansible_host: 10.112.0.245 
+    SRVGS-NODEFRONT3: 
+      ansible_host: 10.112.0.236
+    SRVGS-NODEFRONT2: 
+      ansible_host: 10.112.0.235
+    SRVGS-NODEFRONT1: 
+      ansible_host: 10.112.0.234
+    SRVGS-NODEAPP3: 
+      ansible_host: 10.112.0.244
+    SRVGS-NODEAPP2: 
+      ansible_host: 10.112.0.243
+    SRVGS-NODEAPP1: 
+      ansible_host: 10.112.0.242
+    SRVGS-KUBEMASTER1: 
+      ansible_host: 10.112.0.239
+    SRVGS-KUBEMASTER2: 
+      ansible_host: 10.112.0.240
+    SRVGS-MSESB1: 
+      ansible_host: 10.112.0.247 
+
+Kube-Prod:  
+  hosts:
+    SRVMA-MASTER: 
+      ansible_host: 172.19.46.169  
+    SRVMA-APPMS1:   
+      ansible_host: 172.19.46.207  
+    SRVMA-APPMS2: 
+      ansible_host: 172.19.46.196 
+    SRVMA-APPNODE1: 
+      ansible_host: 172.19.46.218 
+    SRVMA-APPNODE2: 
+      ansible_host: 172.19.46.244 
+    SRVMA-APPNODE3: 
+      ansible_host: 172.19.47.130 
+    SRVMA-MSESB: 
+      ansible_host: 172.19.47.4 
+    SRVMA-MSFRONT: 
+      ansible_host: 172.19.47.6 
+    SRV-MSFRONT:
+      ansible_host: 172.19.47.6
+    SRVMA-NODEAPP-1:
+      ansible_host: 172.19.46.218
+    SRVMA-NODEAPP-2:
+      ansible_host: 172.19.46.244
+    SRVMA-NODEMS-1:
+      ansible_host: 172.19.46.207
+    SRVMA-NODEMS-2:
+      ansible_host: 172.19.46.196
+    SRVMA-NODEAPP-3:
+      ansible_host: 172.19.47.130  
+  
+Kube-AWB:  
+  hosts: 
+    SRVMA-AWBFRONT: 
+      ansible_host: 172.19.43.1 
+    SRVMA-AWBFMASTER: 
+      ansible_host: 172.19.43.2 
+    SRVMA-AWBNODE1:    
+      ansible_host: 172.19.43.3   
+
+
+
+
+avaya:
+  hosts:
+    SRVGS-AVAYAWPROXY:
+      ansible_host: 10.112.0.133
+    SRVGS-AVAYAMID1:
+      ansible_host: 10.112.0.131
+    SRVGS-AVAYAMID2:
+      ansible_host: 10.112.0.132
+    SRVGS-AVAYAWPROXY:
+      ansible_host: 10.227.72.145
+    
+       
+
+
+
